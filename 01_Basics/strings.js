@@ -17,9 +17,12 @@ console.log(gameName.indexOf('t')); //index check by using character
 
 const newString = gameName.substring(0,4)
 console.log(newString)
+console.log("game name ",gameName);
+
 
 // by usingf slice 
-const newString1 = gameName.slice(-6,4) // itv accept the negative value but substring cant accept
+const newString1 = gameName.slice(-3,5)
+console.log("slice",newString1); // itv accept the negative value but substring cant accept
 console.log(newString1); // when give negative value it start reverse
 
 
@@ -40,3 +43,8 @@ console.log(url.includes('choudary'))
 const anotherString = "saddam-hc-com"
 console.log(anotherString)
 console.log(anotherString.split('-'));
+
+
+const name2 = "saddam";
+const newname2 = name2.slice(-3,-1)
+console.log("slice new",newname2)
