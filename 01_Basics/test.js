@@ -5,7 +5,8 @@ console.log(2+2)
 //     console.log("data entered")
 // }
 //let score = 33
-//let score = "33"  
+//let score = "33" 
+
 let score = "33abc"  
 console.log(typeof score)
 console.log (typeof(score));
@@ -78,3 +79,17 @@ age: 23
 const myFunction = function(){
 console.log("hy adrem team");
 }
+
+
+console.log(2+2+"2")
+////////////////////////////////////////////////////////////
+
+//  const getname = function (name){
+//     return name;
+//  }
+
+//  const age = function(age){
+//     return age;
+//  }
+
+ //strings in js
