@@ -1,0 +1,1 @@
+console.log("destructuring of data")
