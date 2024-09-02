@@ -46,5 +46,15 @@ if(true){
 function addone(num){
     return num +1
 }
- const addedNumber=addone(5);
- console.log("after added no is: ", addedNumber)
+  const addedNumber=addone(5);
+
+// we call it expression sometime we can also make function like this
+const addTwo = function (num){                   
+    return num +2
+}
+
+const twoplus = addTwo(5)
+console.log("after added 1 in no is: ", addedNumber)
+console.log("after added 2 in no is: ", twoplus)
+
+// in first function addone that we make we can set at any place we can access it at any place before or afer initialization it doesn't give error but when you call addTwo above of the declaration it gives error we cant access it before initialization
