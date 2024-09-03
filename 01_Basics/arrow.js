@@ -11,9 +11,9 @@ const user ={
     }
 }
 
-// user.welcomeMessage();
-// user.username="Ahmed";
-// user.welcomeMessage();
+user.welcomeMessage();
+user.username="Ahmed";
+user.welcomeMessage();
 //console.log(this); // here it is an empty object in global but in browser window is a global object
 
 
@@ -41,5 +41,7 @@ const user ={
 
 // implicit return
 // const addTwoNum = (n1, n2)=> n1+n2;
-const addTwoNum = (n1, n2)=> (n1+n2)
+//const addTwoNum = (n1, n2)=> (n1+n2)
+const addTwoNum = (n1, n2)=> ({username: "janjua"})
 console.log(addTwoNum(5,5))
+//console.log(addTwoNum(3,2))
