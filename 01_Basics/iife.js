@@ -36,4 +36,4 @@ setTimeout(function(){
 
 setTimeout(()=>{
     console.log("this is annonymous arrow function with time")
-},2000)
+},2000)  
