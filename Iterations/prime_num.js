@@ -1,20 +1,20 @@
 //// /////////////////prime number by single number input//////////////////////
-// function primeNumber(num){
-//   if(num<=1){
-//      return `${num} this is not applicable`;
-//   }
+function primeNumber(num){
+  if(num<=1){
+     return `${num} this is not applicable`;
+  }
 
-//   for(let i = 2; i<=Math.sqrt(num); i++){
-//       if(num%i===0){
-//           return `${num} is not a prime number`;   
-//       } 
+  for(let i = 2; i<=Math.sqrt(num); i++){
+      if(num%i===0){
+          return `${num} is not a prime number`;   
+      } 
       
-//   }
-//       return `${num} is a prime number`;  
+  }
+      return `${num} is a prime number`;  
       
-// }
-// const result=primeNumber(7);
-// console.log("result", result);
+}
+const result=primeNumber(7);
+console.log("result", result);
 
 
 //////////////////// prime number check by giving range//////////////////////////////
