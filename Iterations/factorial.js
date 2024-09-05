@@ -1,0 +1,2 @@
+////////////////Factorial of number///////////////////
+const num = 3;
