@@ -42,25 +42,22 @@
 
 ///////////////////////////////  with one loop ////////////////////////////////////////
 
-function primeNumCheck(start, end) {
-  console.log("loop entered",start, end)
-  let result=start;
-  console.log("loop entered1")
-  let isPrime = false;
-  console.log("loop entered2")
-
-  for (let i = start; i <= end; i++) {
-  console.log("loop entered3", i, result)
-
-      if ( % i === 0) {
-        console.log("loop entered4")
-        isPrime = false;
-      }
-      else{
-        isPrime = true;
-        console.log(isPrime,result)
-      }
-
+// Recursive function to check if a number is prime
+function isPrime(n, i = 2) {
+    if (n <= 2) return n === 2;
+    if (n % i === 0) return false;
+    if (i * i > n) return true;
+    return isPrime(n, i + 1);
 }
+
+// Function to find all prime numbers in a given range
+function findPrimesInRange(start, end) {
+    for (let num = start; num <= end; num++) {
+        if (isPrime(num)) {
+            console.log(num);  // Output the prime number
+        }
+    }
 }
-console.log(primeNumCheck(1, 100))
+
+// Example usage
+findPrimesInRange(1, 20);
