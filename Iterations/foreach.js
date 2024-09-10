@@ -1,0 +1,2 @@
+//////////////FOR EACH LOOP////////////////////
+console.log("For Each Loop");
