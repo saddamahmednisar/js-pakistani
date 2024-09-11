@@ -1,0 +1,23 @@
+////////////////MAP FUNCTION//////////////////////////
+console.log("map function");
+
+ const myNum = [1,2,3,4,5,6,7,8,9,10]
+
+// //const newNum = myNum.map((num)=> num+10)
+ const newNum = myNum.map((num)=>{ return num+10})
+ console.log(newNum);
+
+
+//////////chaining concept //////////////////
+console.log("chaining concept");
+
+const myNum1 = [1,2,3,4,5]
+
+const newNum1 = myNum1
+               .map((num)=>num*10)
+               .map ((num)=>num+1)
+               .filter((num)=>num>=40)
+console.log(newNum1);
+
+
+// filter is for basically loigical exp and map is for arithematic operations
